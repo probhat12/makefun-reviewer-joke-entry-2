@@ -1,4 +1,4 @@
 import { writeFileSync } from 'node:fs';
 
-const joke = 'My coding agent made the new API backwards-compatible by having it call the old API. The old API now calls the new one.';
+const joke = 'My coding agent added a progress bar to setup; it reaches 100% just before asking me to install the package that draws the progress bar.';
 writeFileSync('/output/entry.txt', `${joke}\n`, 'utf8');
